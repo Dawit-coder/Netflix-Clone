@@ -1,0 +1,35 @@
+.header-outer-container {
+    position: sticky;
+    top: 0;
+    background-color: rgb(20, 20, 20);
+    /* background-color: transparent; */
+    height: 10vh;
+    color: white;
+    transition: all 0.5s;
+    transition-timing-function: ease-in;
+    z-index: 1;
+    /* background-color: red; */
+}
+.header_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+.header_left ul,
+.header_right ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 140%; */
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.header_left li,
+.header_right li{
+    margin-right: 25px;
+    text-decoration: none;
+    list-style: none;
+}
+

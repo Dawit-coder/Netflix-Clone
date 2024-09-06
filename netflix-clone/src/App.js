@@ -1,11 +1,14 @@
-import './App.css';
+import "./App.css";
+import Home from './pages/Home/Home'
+import "./"
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h1>Hola</h1>
+    <div className='App'>
+      <Home/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
+
