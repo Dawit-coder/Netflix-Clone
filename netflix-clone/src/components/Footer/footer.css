@@ -32,6 +32,7 @@
 }
 .footer-data li:hover {
     color: #ffffff;
+    transition: all ease-in-out 0.2s;
 }
 
 .service-code {
