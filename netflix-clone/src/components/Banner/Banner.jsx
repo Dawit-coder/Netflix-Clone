@@ -17,8 +17,7 @@ const Banner = () => {
         console.log("error", error)
       }
     })(); // Immediately invoked function expression (IIFE)
-  }, []);
-
+  }, [])
   function truncate(str, n){
     return str?.length > n ?  str.substr(0, n) + "...":str
   }
