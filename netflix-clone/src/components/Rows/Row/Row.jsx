@@ -20,7 +20,7 @@ const Row = ({title, fetchUrl, isLargeRow}) => {
         console.log("error", error);
       }
     })()
-  }, [fetchUrl])
+  }, [fetchUrl]) 
 
   const handleClick = (movie) => {
     if(trailerUrl){
